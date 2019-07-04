@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A938CBBD22CA1117009D1A86 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938CBBC22CA1117009D1A86 /* TodoListViewController.swift */; };
+		A9406AAD22CE4B2700DECC6E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9406AAC22CE4B2700DECC6E /* Item.swift */; };
 		A966EABA22C774CF00615A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966EAB922C774CF00615A65 /* AppDelegate.swift */; };
 		A966EABF22C774CF00615A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A966EABD22C774CF00615A65 /* Main.storyboard */; };
 		A966EAC122C774D000615A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A966EAC022C774D000615A65 /* Assets.xcassets */; };
 		A966EAC422C774D000615A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A966EAC222C774D000615A65 /* LaunchScreen.storyboard */; };
-		A96D13D122CB6FC900A1732A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D13D022CB6FC900A1732A /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A938CBBC22CA1117009D1A86 /* TodoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		A9406AAC22CE4B2700DECC6E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A966EAB622C774CF00615A65 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A966EAB922C774CF00615A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A966EABE22C774CF00615A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A966EAC022C774D000615A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A966EAC322C774D000615A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A966EAC522C774D000615A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A96D13D022CB6FC900A1732A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../../Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		A9406AAE22CE4B3600DECC6E /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9406AAC22CE4B2700DECC6E /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		A966EAAD22C774CF00615A65 = {
 			isa = PBXGroup;
 			children = (
@@ -84,19 +92,11 @@
 				A966EAB922C774CF00615A65 /* AppDelegate.swift */,
 				A938CBBB22CA10D1009D1A86 /* Controllers */,
 				A91DE95B22C8FBE20045942B /* Views */,
-				A96D13D222CB704F00A1732A /* Data Model */,
+				A9406AAE22CE4B3600DECC6E /* Data Model */,
 				A91DE95C22C8FC2A0045942B /* Supporting Files */,
 				A966EAC522C774D000615A65 /* Info.plist */,
 			);
 			path = Todoey;
-			sourceTree = "<group>";
-		};
-		A96D13D222CB704F00A1732A /* Data Model */ = {
-			isa = PBXGroup;
-			children = (
-				A96D13D022CB6FC900A1732A /* Item.swift */,
-			);
-			path = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A938CBBD22CA1117009D1A86 /* TodoListViewController.swift in Sources */,
-				A96D13D122CB6FC900A1732A /* Item.swift in Sources */,
+				A9406AAD22CE4B2700DECC6E /* Item.swift in Sources */,
 				A966EABA22C774CF00615A65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -85,11 +85,10 @@ class TodoListViewController: UITableViewController {
             let encoder = PropertyListEncoder()
             
             do {
-                let data = try encoder.encode(self.itemArray)
-                try data.write(to: self.dataFilePath!)
-                
+            let data = try encoder.encode(self.itemArray)
+            try data.write(to: self.dataFilePath!)
             } catch {
-                print("Error encoding Item Array, \(error)")
+                print("Error encoding item array, \(error)")
             }
             
             self.tableView.reloadData()
@@ -121,6 +120,8 @@ class TodoListViewController: UITableViewController {
         
         self.tableView.reloadData()
     }
+    
+    
     
 
 }
