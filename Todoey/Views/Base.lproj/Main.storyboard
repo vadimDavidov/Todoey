@@ -83,7 +83,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ER3-0b-Q9M">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <action selector="addButtonPressed:" destination="5DT-zZ-ef2" id="Z7z-1G-al1"/>
+                                <action selector="addButtonPressed:" destination="5DT-zZ-ef2" id="tag-Yl-QDB"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
